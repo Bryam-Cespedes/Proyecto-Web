@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro Estudiante</title>
+    <link rel="stylesheet" href="./css/estudiante.css">
+  </head>
+  <body>
+    <div class="cuadro">
+      
+      <h1>Estudiante</h1>    
+
+      <form id="forma" name="forma" method="POST">
+
+          <div class="form">
+   
+              <label for="ci">C.I: </label> <br/>
+              <input type="text" id="ci" placeholder="Escribe su cedula de Identidad" required="true"/> <br/>
+              <label for="ru">R.U: </label> <br/>
+              <input type="number" id="ru" placeholder="Escribe su Registro Unico" required="true"/> <br/>
+              <label for="nombre">Nombre: </label> <br/>
+              <input type="text" id="nombre" placeholder="Escribe su Nombre" required="true"/> <br/>
+              <label for="apellidoP">Apellido Paterno: </label> <br/>
+              <input type="text" id="apellidoP" placeholder="Escribe su Apellido Paterno" required="true"/> <br/>
+              <label for="apellidoM">Apellido Materno: </label> <br/>
+              <input type="text" id="apellidoM" placeholder="Escribe su Apellido Materno" required="true"/> <br/>
+              <label for="egreso">Modalidad de Egreso: </label> <br/>
+              <input type="text" id="egreso" placeholder="Escribe la Modalidad de Egreso" required="true"/> <br/>
+              <label for="fn">Fecha de Nacimiento: </label> <br/>
+              <input type="date" id="fn" placeholder="Escribe su fecha de nacimiento" required="true"/> <br/>
+              <label for="mail">Correo Estudiante: </label> <br/>
+              <input type="email" id="mail" placeholder="Escribe su correo de estudiante" required="true"/> <br/>
+              <label for="docenteG">Docente Guia Asignado: </label> <br/>
+              <input type="text" id="docenteG" placeholder="Escribe el docente guia" required="true"/> <br/>
+              <label for="docenteR">Docente Revisor Asignado: </label> <br/>
+              <input type="text" id="docenteR" placeholder="Escribe el docente revisor" required="true"/> <br/>
+
+              <br/>
+              <input type="submit" value="Enviar"/>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>

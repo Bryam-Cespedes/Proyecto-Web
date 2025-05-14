@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado del Alumno</title>
+    <link rel="stylesheet" href="./css/estadoalumno.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header class="encabezado">
+            <img src="/img/logo de la U.png" alt="Logo Izquierdo" class="logo">
+            <img src="/img/Logo_de_la_U_2.png" alt="Logo Central" class="logo-central">
+            <img src="/img/logo de la U.png" alt="Logo Derecho" class="logo">
+        </header>
+
+        <h1 class="titulo">Estado Del Alumno</h1>
+
+        <section class="formulario">
+            <h2 class="subtitulo">Introduzca su clave</h2>
+            <form action="documentacion.html" method="post">
+                <div class="campos">
+                    <div class="etiquetas">
+                        <label for="ru">RU:</label><br>
+                        <label for="nombre">Nombre:</label><br>
+                        <label for="clave">Clave:</label>
+                    </div>
+                    <div class="entradas">
+                        <input type="text" id="ru" name="ru" class="entrada" required><br>
+                        <input type="text" id="nombre" name="nombre" class="entrada" required><br>
+                        <input type="password" id="clave" name="clave" class="entrada" required>
+                    </div>
+                </div>
+                <button type="submit" class="boton">Buscar</button>
+            </form>
+        </section>
+
+        <footer class="pie">
+            <img src="/img/don bosco.jpg" alt="Don Bosco" class="imagen-donbosco">
+        </footer>
+    </div>
+</body>
+</html>

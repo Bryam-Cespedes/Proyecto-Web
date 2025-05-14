@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+    <link rel="stylesheet" href="./css/cuatrodatos.css">
+</head>
+<body>
+    <div class="encabezado">
+        <img src="/img/logo de la U.png" alt="Logo Izquierdo" class="logo">
+        <img src="/img/Logo_de_la_U_2.png" alt="Logo Central" class="logo-central">
+        <img src="/img/logo de la U.png" alt="Logo Derecho" class="logo">
+    </div>
+    
+    <div class="contenedor">
+    
+        <div class="seccion postulante">
+            <h2>Datos Postulante</h2>
+            <div class="formulario">
+                <div class="etiquetas">
+                    <label for="ra">RA:</label>
+                    <label for="ci">C. de Identidad:</label>
+                    <label for="nombres">Nombres:</label>
+                    <label for="ap_paterno">Ap. Paterno:</label>
+                    <label for="ap_materno">Ap. Materno:</label>
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <label for="departamento">Nac. departamento:</label>
+                    <label for="direccion">Dirección:</label>
+                    <label for="telefono">Teléfono:</label>
+                </div>
+                <div class="entradas">
+                    <input type="text" id="ra" class="campo">
+                    <input type="text" id="ci" class="campo">
+                    <input type="text" id="nombres" class="campo">
+                    <input type="text" id="ap_paterno" class="campo">
+                    <input type="text" id="ap_materno" class="campo">
+                    <input type="date" id="fecha_nacimiento" class="campo">
+                    <input type="text" id="departamento" class="campo">
+                    <input type="text" id="direccion" class="campo">
+                    <input type="text" id="telefono" class="campo">
+                </div>
+            </div>
+        </div>
+    
+        <div class="seccion titulacion">
+            <h2>Estado del proceso de Titulación</h2>
+            <div class="formulario">
+                <div class="etiquetas">
+                    <label for="modalidad">Modalidad de titulación:</label>
+                    <label for="fase">Fase actual:</label>
+                    <label for="fecha_inicio">Fecha de inicio:</label>
+                    <label for="fecha_defensa">Fecha de defensa:</label>
+                    <label for="fecha_titulacion">Fecha de titulación:</label>
+                </div>
+                <div class="entradas">
+                    <input type="text" id="modalidad" class="campo">
+                    <input type="text" id="fase" class="campo">
+                    <input type="date" id="fecha_inicio" class="campo">
+                    <input type="date" id="fecha_defensa" class="campo">
+                    <input type="date" id="fecha_titulacion" class="campo">
+                </div>
+            </div>
+        </div>
+    
+        <div class="seccion docente">
+            <h2>Datos de Docente Guía</h2>
+            <div class="formulario">
+                <div class="etiquetas">
+                    <label for="nombre_docente">Nombre del Docente:</label>
+                    <label for="correo">Correo:</label>
+                    <label for="especialidad">Especialidad:</label>
+                </div>
+                <div class="entradas">
+                    <input type="text" id="nombre_docente" class="campo">
+                    <input type="email" id="correo" class="campo">
+                    <input type="text" id="especialidad" class="campo">
+                </div>
+            </div>
+        </div>
+    
+        <div class="seccion estudiante">
+            <h2>Datos Estudiante</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ru</th>
+                        <th>Programa</th>
+                        <th>Descripción</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="tabla-input" value="59345"></td>
+                        <td><input type="text" class="tabla-input" value="IDS"></td>
+                        <td><input type="text" class="tabla-input" value="Ingeniería de Sistemas"></td>
+                        <td><input type="text" class="tabla-input" value="Habilitado"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
